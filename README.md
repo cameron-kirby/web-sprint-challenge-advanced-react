@@ -30,13 +30,26 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Explain how to build stateful class components.
 
+  - A stateful class component is built by extending the React.Component class. The Stateful component is dependent on it's state object and can change it's own state.
+
 2. Describe the different phases of the component lifecycle.
+
+  - There are three different phases to the component lifecycle: Mounting, Updating, and Unmounting.
 
 3. Demonstrate an understanding of class component lifecycle methods.
 
+  - There are many class component lifecycle methods, such as: ```render()```, ```constructor()```, ```componentDidMount()```, etc...
+  - These methods can be used to add behavior to class components during the different stages, or phases, of the component lifecycle
+  - For example: You can set up a subscription in a component's ```componentDidMount()``` method, and then unsubcribe in a component's ```componentWillUnmount()```.
+
 4. Define stateful logic.
 
+  - Stateful logic refers to logic which can store values and preform logical operations on those values.
+  - Stateful logic in react can be utilized in a reusable way with custom hooks.
+
 5. Describe how to test a React component with React Testing Library.
+
+  - To test a React component with RTL, you must create a test file (which in naming convention will be componentName.test.js), and design the testing that will take place inside that file. Then you may run "npm test" on your react app, and RTL will watch all tests and return errors that may occur.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
